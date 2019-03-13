@@ -1,0 +1,262 @@
+{
+  "xss": [
+    {
+      "question": "A Web site that allows users to enter text, such as a comment or a name, and then stores it and later displays it to other users, is potentially vulnerable to a kind of attack called a ___________________ attack.",
+      "answers": {
+        "a": "Two-factor authentication",
+        "b": "Cross-site Request forgery",
+        "c": "Cross-site scripting",
+        "d": "Cross-site scoring scripting"
+      },
+      "correctanswer": "c"
+    },
+    {
+      "question": "xss question2",
+      "answers": {
+        "a": "option 1",
+        "b": "option 2",
+        "c": "option 3",
+        "d": "option 4"
+      },
+      "correctanswer": "b"
+    },
+    {
+      "question": "xss question3",
+      "answers": {
+        "a": "option 1",
+        "b": "option 2",
+        "c": "option 3",
+        "d": "option 4"
+      },
+      "correctanswer": "c"
+    },
+    {
+      "question": "xss question4",
+      "answers": {
+        "a": "option 1",
+        "b": "option 2",
+        "c": "option 3",
+        "d": "option 4"
+      },
+      "correctanswer": "d"
+    },
+    {
+      "question": "xss question5",
+      "answers": {
+        "a": "option 1",
+        "b": "option 2",
+        "c": "option 3",
+        "d": "option 4"
+      },
+      "correctanswer": "a"
+    }
+  ],
+  "sqlinjection": [
+    {
+      "question": "In _________________ attacks, the attacker manages to get an application to execute an SQL query created by the attacker.",
+      "answers": {
+        "a": "SQL injection",
+        "b": "SQL",
+        "c": "Direct",
+        "d": "Application"
+      },
+      "correctanswer": "a"
+    },
+    {
+      "question": " VPD provides authorization at the level of specific tuples, or rows, of a relation, and is therefore said to be a _____________ mechanism.",
+      "answers": {
+        "a": " Row-level authorization",
+        "b": "Column-level authentication",
+        "c": "Row-type authentication",
+        "d": "Authorization security"
+      },
+      "correctanswer": "a"
+    },
+    {
+      "question": "Form-based login is configured by:-",
+      "answers": {
+        "a": "servlet filters",
+        "b": "refresh-check-delay",
+        "c": "form-login",
+        "d": "none"
+      },
+      "correctanswer": "c"
+    },
+    {
+      "question": "sqlinjection is protected using",
+      "answers": {
+        "a": "statement",
+        "b": "none",
+        "c": "prepared statement",
+        "d": "callable statement"
+      },
+      "correctanswer": "c"
+    },
+    {
+      "question": " Action URL can be customized using form-login.",
+      "answers": {
+        "a": " True",
+        "b": " False",
+        "c": "true",
+        "d": "false"
+      },
+      "correctanswer": "a"
+    }
+  ],
+  "clickjack": [
+    {
+      "question": "Attribute used to display custom login page.",
+      "answers": {
+        "a": "login url",
+        "b": "custom login",
+        "c": "login custom",
+        "d": "custom login"
+      },
+      "correctanswer": "a"
+    },
+    {
+      "question": " Attribute which specifies redirection URL on login error.",
+      "answers": {
+        "a": " authentication-failure",
+        "b": " authentication-failure_login-url",
+        "c": " authentication-login-url",
+        "d": "none"
+      },
+      "correctanswer": "a"
+    },
+    {
+      "question": "clickjack question3",
+      "answers": {
+        "a": "option 1",
+        "b": "option 2",
+        "c": "option 3",
+        "d": "option 4"
+      },
+      "correctanswer": "c"
+    },
+    {
+      "question": "clickjack question4",
+      "answers": {
+        "a": "option 1",
+        "b": "option 2",
+        "c": "option 3",
+        "d": "option 4"
+      },
+      "correctanswer": "d"
+    },
+    {
+      "question": "clickjack question5",
+      "answers": {
+        "a": "option 1",
+        "b": "option 2",
+        "c": "option 3",
+        "d": "option 4"
+      },
+      "correctanswer": "a"
+    }
+  ],
+  "csrf": [
+    {
+      "question": " _________ is an attack which forces an end user to execute unwanted actions on a web application in which he/she is currently authenticated.",
+      "answers": {
+        "a": "Two-factor authentication ",
+        "b": "Cross-site request forgery",
+        "c": "Cross-site scripting",
+        "d": "Cross-site scoring scripting"
+      },
+      "correctanswer": "b"
+    },
+    {
+      "question": " Many applications use _________________, where two independent factors are used to identify a user.",
+      "answers": {
+        "a": "Two-factor authentication ",
+        "b": "Cross-site request forgery",
+        "c": "Cross-site scripting",
+        "d": "Cross-site scoring scripting"
+      },
+      "correctanswer": "a"
+    },
+    {
+      "question": "Even with two-factor authentication, users may still be vulnerable to_____________attacks.",
+      "answers": {
+        "a": "Radiant",
+        "b": "Cross attack",
+        "c": "Scripting",
+        "d": "Man-in-the-middle"
+      },
+      "correctanswer": "d"
+    },
+    {
+      "question": " A single ______________ further allows the user to be authenticated once, and multiple applications can then verify the user�s identity through an authentication service without requiring reauthentication.",
+      "answers": {
+        "a": "OpenID",
+        "b": "Sign-on system",
+        "c": "Security Assertion Markup Language (SAML)",
+        "d": "Virtual Private Database (VPD)"
+      },
+      "correctanswer": "b"
+    },
+    {
+      "question": "The ___________________ is a standard for exchanging authentication and authorization information between different security domains, to provide cross-organization single sign-on.",
+      "answers": {
+        "a": "OpenID",
+        "b": "Sign-on system",
+        "c": "Security Assertion Markup Language (SAML)",
+        "d": "Virtual Private Database (VPD)"
+      },
+      "correctanswer": "c"
+    }
+  ],
+  "https": [
+    {
+      "question": "https question1",
+      "answers": {
+        "a": "option 1",
+        "b": "option 2",
+        "c": "option 3",
+        "d": "option 4"
+      },
+      "correctanswer": "a"
+    },
+    {
+      "question": "https question2",
+      "answers": {
+        "a": "option 1",
+        "b": "option 2",
+        "c": "option 3",
+        "d": "option 4"
+      },
+      "correctanswer": "b"
+    },
+    {
+      "question": "https question3",
+      "answers": {
+        "a": "option 1",
+        "b": "option 2",
+        "c": "option 3",
+        "d": "option 4"
+      },
+      "correctanswer": "c"
+    },
+    {
+      "question": "https question4",
+      "answers": {
+        "a": "option 1",
+        "b": "option 2",
+        "c": "option 3",
+        "d": "option 4"
+      },
+      "correctanswer": "d"
+    },
+    {
+      "question": "https question5",
+      "answers": {
+        "a": "option 1",
+        "b": "option 2",
+        "c": "option 3",
+        "d": "option 4"
+      },
+      "correctanswer": "a"
+    }
+  ]
+}
